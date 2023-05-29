@@ -46,13 +46,53 @@ RFC Feature Importances:
 GBC Feature Importances
 ![GBC featureimport.png](https://github.com/jbloewencolon/Phase-3---Open-to-Psychedelic-Experience/blob/main/Images/GBC%20feature%20importance.png)
 
+When comparing all our models, it looks like our Logistical Regression model scores highest on precision, accuracy, and F1. While the scores are close, we gave the Log model the edge and choose it to draw understandings. 
+
+Model: Logistic Regression
+accuracy: 0.8976545842217484
+precision: 0.9368131868131868
+recall: 0.9316939890710383
+F1-score: 0.9342465753424658
+
+Model: RFC
+accuracy: 0.8912579957356077
+precision: 0.9069767441860465
+recall: 0.9590163934426229
+F1-score: 0.9322709163346613
+
+Model: GBC
+accuracy: 0.8742004264392325
+precision: 0.9205479452054794
+recall: 0.9180327868852459
+F1-score: 0.9192886456908346
+
 # Data Understanding
 
 Interpretations:
 
+Digging deeper into our Logistical Regression Model, out of the 130 coefficients, Oscore was the most important of the personality scores but is only in the top 30. However, there is a signifigant difference between it and our leading coefficients: Never Having Taken a Legal Highs, Nicotine, and Amyl Nitrites. A question to ask is, do people who take psychedelics and have NEVER taken a Legal High score higher on openness than non-psychedelic consumers?
+
+![top coefficients.png](https://github.com/jbloewencolon/Phase-3---Open-to-Psychedelic-Experience/blob/main/Images/top%20coefficients.png)
+
+As it turns out:
+The average Oscore for individuals who scored 'CL0' in the Legalh column and are categorized as 'Psychedelics' is: -0.133
+The average Oscore for individuals who scored 'CL0' in the Legalh column and are categorized as non-psychedelics is: -0.600
+The average Oscore for all other results in the Legalh column is: 0.408
+
+So it looks like psychedelic users DO score higher on the Oscore than non-psychedelic users! That indicates that Oscore possibly contributes positively to Psychedelic use in conjunction with our most important coefficient. But what about Oscore more generally?
+
+![oscore use.png](https://github.com/jbloewencolon/Phase-3---Open-to-Psychedelic-Experience/blob/main/Images/oscore%20use%20vs%20nonuse.png)
+
+The average 'Oscore' for individuals who take psychedelics is: 0.15
+The average 'Oscore' for individuals who do not take psychedelics is: -0.59
 
 # Conclusion
 
+Our first recommedation involves Recruitment Strategy. The precision of 94% achieved by the logistic regression model indicates that the model is effective in identifying potential trial participants who are genuinely likely to experiment with psychedelics. The institute can focus on targeting individuals who exhibit characteristics associated with high precision, such as never having taken legal highs, nicotine, or amyl nitrites. These factors can be used as screening criteria during the recruitment process.
+
+Our second recommendation involves the importance of the Oscore. The Oscore coefficient with a magnitude of 0.5 indicates that it is one of the significant predictors of psychedelic use. Individuals with higher Oscores tend to be more inclined towards using psychedelics. Therefore, considering an individual's Oscore can contribute positively to the prediction of psychedelic usage. The institute can incorporate the assessment of Oscore into the screening process to further refine the selection of potential participants.
+
+Our final recommendation involves a comparison of Oscore and psychedelic use. The analysis of the average Oscore for individuals who take psychedelics and those who do not reveals a notable difference. Individuals who take psychedelics have an average Oscore of 0.152, while those who do not have an average Oscore of -0.593. This indicates that Oscore may be a relevant factor in understanding the inclination towards psychedelic use. The institute can explore further research to investigate the relationship between Oscore and the therapeutic effects of psychedelic-assisted therapies.
 
 
 # Next Steps
