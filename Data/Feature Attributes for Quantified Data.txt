@@ -1,0 +1,61 @@
+Feature Attributes for Quantified Data:
+
+ID: is a number of records in an original database. Cannot be related to the participant. It can be used for reference only.
+Age (Real) is the age of participant
+Gender: Male or Female
+Education: level of education of participant
+Country: country of origin of the participant
+Ethnicity: ethnicity of participant
+Nscore (Real) is NEO-FFI-R Neuroticism
+Escore (Real) is NEO-FFI-R Extraversion
+Oscore (Real) is NEO-FFI-R Openness to experience.
+Ascore (Real) is NEO-FFI-R Agreeableness.
+Cscore (Real) is NEO-FFI-R Conscientiousness.
+Impulsive (Real) is impulsiveness measured by BIS-11
+SS (Real) is sensation seeing measured by ImpSS
+Alcohol: alcohol consumption
+Amphet: amphetamines consumption
+Amyl: nitrite consumption
+Benzos: benzodiazepine consumption
+Caff: caffeine consumption
+Cannabis: marijuana consumption
+Choc: chocolate consumption
+Coke: cocaine consumption
+Crack: crack cocaine consumption
+Ecstasy: ecstasy consumption
+Heroin: heroin consumption
+Ketamine: ketamine consumption
+Legalh: legal highs consumption
+LSD: LSD consumption
+Meth: methadone consumption
+Mushroom: magic mushroom consumption
+Nicotine: nicotine consumption
+Semer: class of fictitious drug Semeron consumption (i.e. control)
+VSA: class of volatile substance abuse consumption
+Rating's for Drug Use:
+
+CL0 Never Used
+CL1 Used over a Decade Ago
+CL2 Used in Last Decade
+CL3 Used in Last Year 59
+CL4 Used in Last Month
+CL5 Used in Last Week
+CL6 Used in Last Day
+Acknowledgements
+Elaine Fehrman,
+Men's Personality Disorder and National Women's Directorate,
+Rampton Hospital, Retford,
+Nottinghamshire, DN22 0PD, UK,
+Elaine.Fehrman@nottshc.nhs.uk
+
+Vincent Egan,
+Department of Psychiatry and Applied Psychology,
+University of Nottingham,
+Nottingham, NG8 1BB, UK,
+Vincent.Egan@nottingham.ac.uk
+
+Evgeny M. Mirkes
+Department of Mathematics,
+University of Leicester,
+Leicester, LE1 7RH, UK,
+em322@le.ac.uk
