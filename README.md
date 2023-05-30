@@ -112,3 +112,4 @@ Further questions? Contact Jordan Loewen-Colón @ jbloewen@syr.edu
 ├── Openness to Psychedelics.ipynb : notebook used to pull from API
 ├── README.md : project information and repository structure
 ├── presentation.pdf : the powerpoint presentation used to present data analysis
+
