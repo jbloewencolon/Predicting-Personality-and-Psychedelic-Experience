@@ -48,34 +48,25 @@ GBC Feature Importances
 
 When comparing all our models, it looks like our **Logistical Regression model scores highest on accuracy, and F1**. The RFC model scored highest on precision and recall. While the scores are close, we'll give the Log model the edge and choose it to draw understandings. 
 
-Model: Logistic Regression
+**Model: Logistic Regression**
 
 accuracy: 0.8763326226012793
-
 precision: 0.9723926380368099
-
 recall: 0.8661202185792349
-
 F1-score: 0.9161849710982659
 
-Model: RFC
+**Model: RFC**
 
 accuracy: 0.8571428571428571
-
 precision: 0.9746031746031746
-
 recall: 0.8387978142076503
-
 F1-score: 0.9016152716593245
 
-Model: GBC
+**Model: GBC**
 
 accuracy: 0.8528784648187633
-
 precision: 0.9684542586750788
-
 recall: 0.8387978142076503
-
 F1-score: 0.8989751098096632
 
 # Data Understanding
