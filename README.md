@@ -97,7 +97,12 @@ Our final recommendation involves a comparison of Oscore and psychedelic use. Th
 
 # Next Steps
 
-With more time, we could narrow down on personality traits and other drug types that might offer more insights from our model and thus update our recommendations.
+Our logistic regression model may have scored so high for two reasons:
+1) Because log regressions assume that there's a linear decision boundary between the classes, while decision trees (and by extension, Random Forests and Gradient Boosting models) do not, If the data indeed has a linear decision boundary, logistic regression might outperform more complex models.
+
+2) Random Forest and Gradient Boosting models are more complex than logistic regression, and this complexity can lead them to overfit the training data, especially if the dataset is small, which ours is.
+
+Therefore, getting more data might actually allow our more complex models to provide more precise predictions.
 
 # Questions?
 For a full analysis please check the Jupyter Notebook or slide presentation.
