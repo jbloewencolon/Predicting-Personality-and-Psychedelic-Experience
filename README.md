@@ -1,4 +1,5 @@
-# Openness to Psychedelic Experience: Targeting Potential Participants for Studies in Psychedelic Medicine
+# Openness to Psychedelic Experience: 
+## Targeting Potential Participants for Studies in Psychedelic Medicine
 A Flatiron School Phase 3 Project
 
 ![psycedelic_mushroom.png](https://github.com/jbloewencolon/Phase-3---Open-to-Psychedelic-Experience/blob/main/Images/bauhous%20trip.png)
