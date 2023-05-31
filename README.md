@@ -123,7 +123,8 @@ Further questions? Contact Jordan Loewen-Colón @ jbloewen@syr.edu
 ```
 ├── data : data used for modeling
 ├── images : images used in PPT and README
-├── Openness to Psychedelics.ipynb : notebook used to pull from API
+├── draft 1 : previous files from first draft of project
+├── SMOTE version.ipynb : notebook used to pull from API
 ├── README.md : project information and repository structure
 ├── presentation.pdf : the powerpoint presentation used to present data analysis
 
