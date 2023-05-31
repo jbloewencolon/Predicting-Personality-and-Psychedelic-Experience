@@ -46,10 +46,10 @@ The Oscore had the largest coefficient magnitude of all our personality traits. 
 
 We continued with our modeling by using both a Random Tree Classifier (RFC) and a Gradient Boost classifier (GBC) which produced **precision ratings of 97%** as well. Looking at the feature importances of both revealed an agreement between the Log and GBC models that Oscore is the most important feature, while our RFC model though Oscore was second to SS.
 
-RFC Feature Importances:
+**RFC Feature Importances:**
 ![RFC featureimport.png](https://github.com/jbloewencolon/Phase-3---Open-to-Psychedelic-Experience/blob/main/Images/RFC%20feature%20importance.png)
 
-GBC Feature Importances
+**GBC Feature Importances:**
 ![GBC featureimport.png](https://github.com/jbloewencolon/Phase-3---Open-to-Psychedelic-Experience/blob/main/Images/GBC%20feature%20importance.png)
 
 When comparing all our models, it looks like our **Logistical Regression model scores highest on accuracy, and F1**. The RFC model scored highest on precision and recall. While the scores are close, we'll give the Log model the edge and choose it to draw understandings. 
