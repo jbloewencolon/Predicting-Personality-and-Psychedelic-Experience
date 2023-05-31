@@ -18,7 +18,7 @@ To make our recommendations, we analyzed the [Drug Consumptions (UCI)](https://w
 
 * 1885 respondents
 * 12 attributes per respondent
-    * Personality measurements which include: neuroticism (Nscore), extraversion (Escore), openness to experience (Oscore), agreeableness (Ascore), conscientiousness (Cscore), impulsivity (Impulsive), and sensation seeking (SS) 
+    * Personality measurements which include: neuroticism **(Nscore)**, extraversion **(Escore)**, openness to experience **(Oscore)**, agreeableness **(Ascore)**, conscientiousness **(Cscore)**, impulsivity **(Impulsive)**, and sensation seeking **(SS)** 
     * Demographics like: level of education, age, gender, country of residence and ethnicity. 
 * 18 legal and illegal drugs: alcohol, amphetamines, amyl nitrite, benzodiazepine, cannabis, chocolate, cocaine, caffeine, crack, ecstasy, heroin, ketamine, legal highs, LSD, methadone, mushrooms, nicotine and volatile substance abuse and one fictitious drug (Semeron) which was introduced to identify over-claimers. 
     * "For each drug they have to select one of the answers: never used the drug, used it over a decade ago, or in the last decade, year, month, week, or day."
