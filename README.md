@@ -120,10 +120,10 @@ Further questions? Contact Jordan Loewen-Colón @ jbloewen@syr.edu
 
 
 ```
-├── data : data used for modeling
-├── images : images used in PPT and README
-├── draft 1 : previous files from first draft of project
-├── SMOTE version.ipynb : notebook used to pull from API
-├── README.md : project information and repository structure
-├── presentation.pdf : the powerpoint presentation used to present data analysis
+├── [data](https://github.com/jbloewencolon/Personality-and-Psychedelic-Experience/tree/main/Data) : data used for modeling
+├── [images](https://github.com/jbloewencolon/Personality-and-Psychedelic-Experience/tree/main/Images) : images used in PPT and README
+├── [draft 1](https://github.com/jbloewencolon/Personality-and-Psychedelic-Experience/tree/main/draft%201) : previous files from first draft of project
+├── [SMOTE version.ipynb](https://github.com/jbloewencolon/Personality-and-Psychedelic-Experience/blob/main/SMOTE%20Version.ipynb) : notebook used to pull from API
+├── [README.md](https://github.com/jbloewencolon/Personality-and-Psychedelic-Experience/blob/main/notebook.pdf) : project information and repository structure
+├── [presentation.pdf](https://github.com/jbloewencolon/Personality-and-Psychedelic-Experience/blob/main/presentation.pdf) : the powerpoint presentation used to present data analysis
 
