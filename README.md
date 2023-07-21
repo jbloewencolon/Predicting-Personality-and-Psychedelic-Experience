@@ -1,4 +1,4 @@
-# Openness to Psychedelic Experience: 
+# Psychedelics? Yes Please!: 
 ## Targeting Potential Participants for Studies in Psychedelic Medicine
 A Flatiron School Phase 3 Project
 
