@@ -119,7 +119,6 @@ Further questions? Contact Jordan Loewen-Colón @ jbloewen@syr.edu
 ## Repository Structure
 
 
-```
 ├── [data](https://github.com/jbloewencolon/Personality-and-Psychedelic-Experience/tree/main/Data) : data used for modeling
 ├── [images](https://github.com/jbloewencolon/Personality-and-Psychedelic-Experience/tree/main/Images) : images used in PPT and README
 ├── [draft 1](https://github.com/jbloewencolon/Personality-and-Psychedelic-Experience/tree/main/draft%201) : previous files from first draft of project
